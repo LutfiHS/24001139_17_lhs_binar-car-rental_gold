@@ -1,0 +1,35 @@
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.hero-content h1 {
+  font: 700 36px "arial", sans-serif;
+  line-height: 54px;
+  width: 568px;
+  height: 108px;
+}
+
+.hero-content p {
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+  width: 468px;
+}
+
+.hero-content .hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  width: 140px;
+  height: 36px;
+  padding: 8px 12px;
+  border-radius: 2px;
+  background-color: #5cb85f;
+  color: #ffffff;
+  font: 700 14px "arial", sans-serif;
+}
