@@ -1,0 +1,14 @@
+.hero-image {
+  min-height: 100%;
+  position: relative;
+  /* background-color: black; */
+}
+.hero-image img {
+  /* position: absolute; */
+  width: 704px;
+  height: 407px;
+
+  right: 0px;
+  bottom: 0px;
+  /* transform: translateX(20%); */
+}

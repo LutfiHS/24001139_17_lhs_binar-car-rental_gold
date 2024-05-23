@@ -1,0 +1,12 @@
+.hero-container {
+  margin: 0 auto;
+  display: flex;
+
+  min-height: 100%;
+
+  height: 404px;
+  width: 1055px;
+
+  justify-content: space-between;
+  align-items: center;
+}

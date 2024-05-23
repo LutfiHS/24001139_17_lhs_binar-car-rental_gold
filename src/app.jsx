@@ -1,11 +1,12 @@
-// import "./style/Root.css";
+import "./style/Root.css";
 import Navbar from "./compenent/Navbar";
-// import root from "./style/Root.css";
+import HeroOne from "./compenent/HeroOne";
 
 function app() {
   return (
     <div>
       <Navbar />
+      <HeroOne />
     </div>
   );
 }
