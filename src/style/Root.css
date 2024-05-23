@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-light-sky {
+  width: 100%;
+  background-color: #f1f3ff;
+}
+
+.wrapper-white {
+  width: 100%;
+  background-color: #ffff;
+}
+
+/* body {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2rem;
+} */
