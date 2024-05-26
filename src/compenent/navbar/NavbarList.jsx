@@ -1,6 +1,6 @@
-import "../style/Root.css";
-import "../style/NavbarList.style.css";
-import { listNavbar } from "../Utils/dummy";
+import "../../Root.css";
+import "./NavbarList.css";
+import { listNavbar } from "../../Utils/dummy";
 
 const NavbarList = () => {
   return (

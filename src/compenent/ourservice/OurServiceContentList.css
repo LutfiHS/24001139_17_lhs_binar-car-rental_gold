@@ -1,0 +1,18 @@
+.OurService-content-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.OurService-content-list .OurService-content-list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.OurService-content-list .OurService-content-list-item p {
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+}

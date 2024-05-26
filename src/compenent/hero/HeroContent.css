@@ -32,4 +32,9 @@
   background-color: #5cb85f;
   color: #ffffff;
   font: 700 14px "arial", sans-serif;
+  text-decoration: none;
+}
+
+.hero-content a {
+  text-decoration: none;
 }

@@ -1,6 +1,7 @@
-import "../style/Root.css";
-import "../style/HeroOneContent.style.css";
-import { location } from "../Utils/dummy";
+import "../../Root.css";
+import "./HeroContent.css";
+import { location } from "../../Utils/dummy";
+import { Link } from "react-router-dom";
 
 const HeroContent = (props) => {
   return (
@@ -11,7 +12,12 @@ const HeroContent = (props) => {
         terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk
         sewa mobil selama 24 jam.
       </p>
-      {props.ShwButton ? <a class="hero-button">Mulai Sewa Mobil</a> : null}
+
+      {props.ShwButton ? (
+        <Link to={"/searchcar"}>
+          <a className="hero-button">Mulai Sewa Mobil</a>
+        </Link>
+      ) : null}
     </div>
   );
 };
