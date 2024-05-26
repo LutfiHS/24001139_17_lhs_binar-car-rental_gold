@@ -1,0 +1,42 @@
+:root {
+  --heighnavbar: 34px;
+  --paddingnavbar: 24px;
+  --colorlight: #f1f3ff;
+  --colorwhite: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper-light-sky {
+  width: 100%;
+  background-color: var(--colorlight);
+}
+
+.wrapper-white {
+  width: 100%;
+  background-color: var(--colorwhite);
+}
+
+h1,
+h2,
+a,
+p {
+  color: #000000;
+}
+
+/* body {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 2rem;
+} */
