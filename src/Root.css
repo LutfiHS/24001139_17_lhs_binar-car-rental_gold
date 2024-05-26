@@ -14,6 +14,7 @@
 body {
   height: 100%;
   width: 100%;
+  font: 700 14px "arial", sans-serif;
 }
 
 .wrapper-light-sky {
