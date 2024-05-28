@@ -5,6 +5,7 @@ import OurService from "../../compenent/ourservice/OurService";
 import Whyus from "../../compenent/whyus/whyus";
 import Testimonial from "../../compenent/testimonial/Testimonial";
 import Banner from "../../compenent/banner/banner";
+import Faq from "../../compenent/faq/Faq";
 
 function app() {
   return (
@@ -15,6 +16,7 @@ function app() {
       <Whyus />
       <Testimonial />
       <Banner />
+      <Faq />
     </div>
   );
 }

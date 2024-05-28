@@ -1,0 +1,66 @@
+.faq-list {
+  width: 668px;
+  min-height: 344px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+.faq-list-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.faq-list-box a {
+  width: 668px;
+  min-height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 24px;
+  padding-right: 16px;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  position: relative;
+  text-decoration: none;
+
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+}
+
+.faq-list-box img {
+  height: 25px;
+  width: 25px;
+  /* padding-right: 16px; */
+}
+
+.list-detail {
+  display: flex;
+}
+
+.list-detail p {
+  height: auto;
+  display: flex;
+  padding: 10px;
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  /* padding-right: 16px; */
+}
+
+.default-rotate {
+  transform: rotate(0deg);
+  /* padding-right: 16px; */
+}
+
+.detail-show {
+  height: auto;
+}
+.detail-hidden {
+  display: none;
+}
