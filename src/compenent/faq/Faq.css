@@ -1,0 +1,33 @@
+.faq-container {
+  margin: 0 auto;
+  width: 1168px;
+  height: auto;
+  min-height: 344px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 150px;
+}
+
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.faq-content h1,
+.faq-content p {
+  width: 368px;
+  height: 40px;
+}
+
+.faq-content h1 {
+  font: 700 24px "arial", sans-serif;
+  line-height: 36px;
+}
+
+.faq-content p {
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+}
