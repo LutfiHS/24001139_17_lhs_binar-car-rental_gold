@@ -1,7 +1,7 @@
 import "../../Root.css";
 import "./HeroContent.css";
+import Rentbutton from "./RentButton";
 import { location } from "../../Utils/dummy";
-import { Link } from "react-router-dom";
 
 const HeroContent = (props) => {
   return (
@@ -12,12 +12,7 @@ const HeroContent = (props) => {
         terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk
         sewa mobil selama 24 jam.
       </p>
-
-      {props.ShwButton ? (
-        <Link to={"/searchcar"}>
-          <a className="hero-button">Mulai Sewa Mobil</a>
-        </Link>
-      ) : null}
+      {props.ShwButton ? <Rentbutton /> : null}
     </div>
   );
 };
