@@ -3,6 +3,11 @@ import icon2 from "../assets/icon_price.png";
 import icon3 from "../assets/icon_24hrs.png";
 import icon4 from "../assets/icon_professional.png";
 
+import img_photo1 from "../assets/img_photo3.png";
+import img_photo2 from "../assets/img_photo3.png";
+import img_photo3 from "../assets/img_photo2.png";
+import img_review1 from "../assets/Rate1.png";
+
 export const listNavbar = ["Our Service", "Why Us", "Testimonial", "FAQ"];
 
 export const location = ["BSD"];
@@ -39,5 +44,35 @@ export const CardWhyUs = [
     image: icon4,
     title: "Sopir Profesional",
     desc: "Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat waktu",
+  },
+];
+
+export const CardTest = [
+  {
+    id: 1,
+    iconProfileUrl: img_photo1,
+    iconRate: img_review1,
+    name: "John Dee",
+    age: 32,
+    location: "Bromo",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+  },
+  {
+    id: 2,
+    iconProfileUrl: img_photo2,
+    iconRate: img_review1,
+    name: "John Dee",
+    age: 32,
+    location: "Bromo",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+  },
+  {
+    id: 3,
+    iconProfileUrl: img_photo3,
+    iconRate: img_review1,
+    name: "John Dee",
+    age: 32,
+    location: "Bromo",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
   },
 ];
