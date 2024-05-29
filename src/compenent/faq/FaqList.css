@@ -12,6 +12,21 @@
   flex-direction: column;
 }
 
+/* .hover-button .hover-button--on,
+.hover-button:hover .hover-button--off {
+  display: none;
+}
+
+.hover-button:hover .hover-button--on {
+  display: inline;
+} 
+
+html should be like
+<button class='hover-button'>
+  <span class='hover-button--off'>Default</span>
+  <span class='hover-button--on'>Hover!</span>
+</button> */
+
 .faq-list-box a {
   width: 668px;
   min-height: 56px;

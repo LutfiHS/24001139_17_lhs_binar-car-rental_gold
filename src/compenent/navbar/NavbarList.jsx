@@ -2,10 +2,14 @@ import "../../Root.css";
 import "./NavbarList.css";
 import { listNavbar } from "../../Utils/dummy";
 
-const NavbarList = () => {
+const NavbarList = (props) => {
   return (
-    <div class="navbar-list-container">
-      <ul class="navbar-list">
+    <div
+      class={`navbar-list-container ${
+        props.vertical ? "navbar-list-container-vertical" : ""
+      }`}
+    >
+      <ul class={`navbar-list ${props.vertical ? "list-column" : ""}`}>
         {listNavbar.map((item) => (
           <a href="#" title={item}>
             {item}

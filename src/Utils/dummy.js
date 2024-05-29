@@ -8,6 +8,12 @@ import img_photo2 from "../assets/img_photo3.png";
 import img_photo3 from "../assets/img_photo2.png";
 import img_review1 from "../assets/Rate1.png";
 
+import icon_fb from "../assets/icon_facebook.png";
+import icon_ig from "../assets/icon_instagram.png";
+import icon_twitter from "../assets/icon_twitter.png";
+import icon_email from "../assets/icon_mail.png";
+import icon_twitch from "../assets/icon_twitch.png";
+
 export const listNavbar = ["Our Service", "Why Us", "Testimonial", "FAQ"];
 
 export const location = ["BSD"];
@@ -107,5 +113,28 @@ export const FaqList = [
     question: "Bagaimana jika terjadi kecelakaan?",
     answer:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione provident enim commodi minima natus quae quidem est tempora, obcaecati architecto consectetur. Laboriosam maxime obcaecati soluta!",
+  },
+];
+
+export const icon_media = [
+  {
+    id: 1,
+    image: icon_fb,
+  },
+  {
+    id: 2,
+    image: icon_ig,
+  },
+  {
+    id: 3,
+    image: icon_twitter,
+  },
+  {
+    id: 4,
+    image: icon_email,
+  },
+  {
+    id: 5,
+    image: icon_twitch,
   },
 ];
