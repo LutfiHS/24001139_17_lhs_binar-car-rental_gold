@@ -4,6 +4,12 @@
   justify-content: center;
 }
 
+.navbar-list-container-vertical {
+  width: 79px;
+  display: flex;
+  justify-content: center;
+}
+
 .navbar-list {
   width: Hug (327px);
   height: Hug (20px);
@@ -16,6 +22,15 @@
   list-style: none;
 }
 
+.list-column {
+  /* width: Hug (79px);
+  height: Hug (128px); */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
 .navbar-list a {
   display: inline-block;
   text-align: center;
@@ -25,6 +40,12 @@
   font: 400 14px "arial", sans-serif;
   line-height: 20px;
   color: #000000;
+}
+
+.list-column a {
+  display: inline-block;
+  text-align: start;
+  align-content: flex-start;
 }
 
 .navbar-list a:before {

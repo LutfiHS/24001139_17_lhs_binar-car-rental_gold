@@ -1,0 +1,46 @@
+.footer-container {
+  margin: 0 auto;
+  width: 1141px;
+  height: 128px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 86px;
+  margin-bottom: 100px;
+}
+
+.profile-company {
+  height: auto;
+  width: 268px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.profile-company p {
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+}
+
+.list-media {
+  width: 224px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.list-media .icon-media {
+  display: flex;
+  gap: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
