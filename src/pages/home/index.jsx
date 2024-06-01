@@ -13,11 +13,19 @@ function app() {
     <div>
       <Navbar />
       <Hero btn={true} />
-      <OurService />
-      <Whyus />
-      <Testimonial />
+      <div id="our-service">
+        <OurService />
+      </div>
+      <div id="why-us">
+        <Whyus />
+      </div>
+      <div id="testimonial">
+        <Testimonial />
+      </div>
       <Banner />
-      <Faq />
+      <div id="faq">
+        <Faq />
+      </div>
       <Footers />
     </div>
   );

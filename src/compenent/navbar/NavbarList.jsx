@@ -1,6 +1,7 @@
 import "../../Root.css";
 import "./NavbarList.css";
 import { listNavbar } from "../../Utils/dummy";
+import { NavHashLink } from "react-router-hash-link";
 
 const NavbarList = (props) => {
   return (
@@ -11,9 +12,10 @@ const NavbarList = (props) => {
     >
       <ul class={`navbar-list ${props.vertical ? "list-column" : ""}`}>
         {listNavbar.map((item) => (
-          <a href="#" title={item}>
-            {item}
-          </a>
+          <NavHashLink smooth to={`/${item.link}`}>
+            {/* title={item.title} */}
+            {item.name}
+          </NavHashLink>
         ))}
       </ul>
     </div>
