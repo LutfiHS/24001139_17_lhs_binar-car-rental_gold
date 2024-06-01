@@ -6,7 +6,7 @@ import { icon_media } from "../../Utils/dummy";
 
 const Footer = () => {
   return (
-    <div className="wrapper-white">
+    <div className="footer-wrapper">
       <div className="footer-container">
         <div className="profile-company">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
