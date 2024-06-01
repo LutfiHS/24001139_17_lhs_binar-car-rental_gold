@@ -12,7 +12,7 @@ function app() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <Hero btn={true} />
       <OurService />
       <Whyus />
       <Testimonial />

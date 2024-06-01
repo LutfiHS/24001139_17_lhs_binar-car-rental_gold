@@ -1,0 +1,80 @@
+.catalog-wrapper {
+  height: auto;
+}
+
+.catalog-container {
+  margin: 0 auto;
+  width: 1047px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 24px;
+}
+
+.card-container {
+  width: 330px;
+  height: 478px;
+  display: flex;
+  /* flex: 0 0 33.33%; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--colorwhite);
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 100px;
+  /* margin-bottom: 230px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card-container img {
+  width: 303px;
+  height: 222px;
+  margin-bottom: 16px;
+}
+
+.card-container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 285px;
+  height: 48px;
+  background-color: #5cb85f;
+  color: var(--colorwhite);
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.button-container {
+  margin: 0 auto;
+  width: 1047px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 230px;
+  gap: 20px;
+}
+
+.button-container button {
+  /* background: none; */
+  border: none;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  background-position: 50% 50%;
+  cursor: pointer;
+  background-image: url("../../../assets/Left button.png") no-repeat;
+}
+
+.button-container .btn-right {
+  background-image: url("../../../assets/Left button.png") no-repeat;
+  transform: rotate(180deg);
+}
