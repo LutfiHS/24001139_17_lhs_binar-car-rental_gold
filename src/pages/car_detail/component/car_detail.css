@@ -1,0 +1,103 @@
+.detail-car-wrapper {
+  height: auto;
+}
+
+.about-container {
+  margin: 0 auto;
+  width: 1047px;
+  height: auto;
+  /* min-height: 618px; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 31px;
+  margin-bottom: 50px;
+  gap: 32px;
+  background-color: var(--colorwhite);
+}
+
+.about-rent-container {
+  width: 605px;
+  /* min-height: 618px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: var(--colorwhite);
+  border-radius: 8px;
+  padding: 24px;
+
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.about-rent-container p {
+  font: 700 14px "arial", sans-serif;
+  line-height: 24.5px;
+  color: #8a8a8a;
+}
+
+.about-include,
+.about-exclude,
+.about-refund {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.about-rent-container .about-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+  font: 400 14px "arial", sans-serif;
+  line-height: 24.5px;
+}
+
+.about-car-container {
+  width: 405px;
+  height: 435px;
+  /* min-height: 618px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  background-color: var(--colorwhite);
+  border-radius: 8px;
+  border-style: none;
+  padding: 24px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.about-car-container img {
+  width: 100%;
+  height: 216px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.about-car-container .car-info h4 {
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+}
+
+.about-car-container .car-info p {
+  font: 700 10px "arial", sans-serif;
+  line-height: 14px;
+  color: #8a8a8a;
+}
+
+.about-car-container .rent-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 24.5px;
+}

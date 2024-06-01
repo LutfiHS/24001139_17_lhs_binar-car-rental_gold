@@ -14,7 +14,13 @@ import icon_twitter from "../assets/icon_twitter.png";
 import icon_email from "../assets/icon_mail.png";
 import icon_twitch from "../assets/icon_twitch.png";
 
-export const listNavbar = ["Our Service", "Why Us", "Testimonial", "FAQ"];
+export const listNavbar = [
+  { name: "Our Service", link: "#our-service" },
+  { name: "Why Us", link: "#why-us" },
+  { name: "Testimonial", link: "#testimonial" },
+  { name: "FAQ", link: "#faq" },
+];
+// export const linkNavbar = ["#our-service", "#why-us", "#testimoni", "#faq"];
 
 export const location = ["BSD"];
 
@@ -137,4 +143,29 @@ export const icon_media = [
     id: 5,
     image: icon_twitch,
   },
+];
+
+export const about_include = [
+  "Apa saja yang termasuk dalam paket misal durasi max 12 jam",
+  "Sudah termasuk bensin selama 12 jam",
+  "Sudah termasuk Tiket Wisata",
+  "Sudah termasuk pajak",
+];
+
+export const about_exclude = [
+  "Tidak termasuk biaya makan sopir Rp 75.000/hari",
+  "Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam",
+  "Tidak termasuk akomodasi penginapan",
+];
+
+export const about_refund = [
+  "Tidak termasuk biaya makan sopir Rp 75.000/hari",
+  "Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam",
+  "Tidak termasuk akomodasi penginapan",
+  "Tidak termasuk biaya makan sopir Rp 75.000/hari",
+  "Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam",
+  "Tidak termasuk akomodasi penginapan",
+  "Tidak termasuk biaya makan sopir Rp 75.000/hari",
+  "Jika overtime lebih dari 12 jam akan ada tambahan biaya Rp 20.000/jam",
+  "Tidak termasuk akomodasi penginapan",
 ];
