@@ -1,7 +1,17 @@
+import "../../Root.css";
+import Navbar from "../../compenent/navbar/Navbar";
+import Hero from "../../compenent/hero/Hero";
+import Searchbox from "./search_car/SearchCar";
+import Footer from "../../compenent/footer/Footer";
+// import Searchbox from "../../compenent/search_car/SearchCar";
+
 const Catalog = () => {
   return (
     <div>
-      <h1>this catalog</h1>
+      <Navbar />
+      <Hero ShwBtn={false} />
+      <Searchbox />
+      <Footer />
     </div>
   );
 };

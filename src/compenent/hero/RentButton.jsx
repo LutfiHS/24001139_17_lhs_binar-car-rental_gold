@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Rentbutton = () => {
   return (
     <div className="hero-button">
-      <Link to={"/searchcar"}>
+      <Link to={"/catalog"}>
         <a className="hero-button-link">Mulai Sewa Mobil</a>
       </Link>
     </div>
