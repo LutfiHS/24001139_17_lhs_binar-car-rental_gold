@@ -22,7 +22,7 @@
   line-height: 20px;
 }
 
-.button-testimonial-container {
+/* .button-testimonial-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,7 +41,6 @@
   padding: 0;
   text-indent: -9999px;
   border: 0 none;
-  /* outline: none; */
 }
 
 .button-testimonial-container .btn-left-on {
@@ -58,10 +57,10 @@
 
 .button-testimonial-container .btn-right-off {
   background-image: url("../../assets/Right-button.png");
-}
+} */
 
 @media (min-width: 280px) and (max-width: 480px) {
   .testimonial-container {
-    margin: 0 0 50px 0;
+    margin: 0 0 100px 0;
   }
 }

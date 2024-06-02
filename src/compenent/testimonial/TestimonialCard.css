@@ -1,8 +1,14 @@
 .card-testimonial-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+}
+
+.card-testimonial-slider {
+  /* width: 619px;
+  height: 270px; */
+  width: 619px;
 }
 
 .card-testimonial-item {
@@ -18,23 +24,89 @@
 }
 
 .content-card {
-  width: 415px;
-  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  width: 415px;
+  height: auto;
   gap: 16px;
 }
 
-.content-card img {
+.content-card .content-card-icon {
   right: 0;
+  width: 80px;
+  height: 16px;
+}
+
+.content-card-p1 {
+  font: 700 14px "arial", sans-serif;
+  line-height: 20px;
+}
+
+.content-card-p2 {
+  font: 400 14px "arial", sans-serif;
+  line-height: 20px;
+}
+
+.button-testimonial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  gap: 24px;
+}
+
+.button-testimonial-container .base-button {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  text-indent: -9999px;
+  border: 0 none;
+  background-color: white;
+}
+
+.button-testimonial-container .btn-left-on {
+  background-image: url("../../assets/Left-button-on.png");
+}
+
+.button-testimonial-container .btn-right-on {
+  background-image: url("../../assets/Right-button-on.png");
+}
+
+.button-testimonial-container .btn-left-off {
+  background-image: url("../../assets/Left-button.png");
+}
+
+.button-testimonial-container .btn-right-off {
+  background-image: url("../../assets/Right-button.png");
+}
+
+.card-testimonial-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  gap: 10px;
 }
 
 @media (min-width: 280px) and (max-width: 480px) {
   .card-testimonial-container {
     gap: 32px;
     height: auto;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-testimonial-center {
+    /* top: 50%;
+    left: 175%; */
+    transform: translate(22%, 0);
   }
 
   .card-testimonial-item {
