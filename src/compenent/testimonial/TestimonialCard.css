@@ -30,3 +30,48 @@
 .content-card img {
   right: 0;
 }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .card-testimonial-container {
+    gap: 32px;
+    height: auto;
+  }
+
+  .card-testimonial-item {
+    width: 80vw;
+    height: auto;
+    padding: 40px 32px;
+    gap: 24px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-card img {
+    justify-content: center;
+  }
+
+  .content-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .content-card img {
+    align-self: center;
+  }
+
+  .content-card p:nth-child(2) {
+    font: 700 14px "arial", sans-serif;
+    line-height: 20px;
+  }
+
+  .content-card p:nth-child(3) {
+    font: 400 14px "arial", sans-serif;
+    line-height: 20px;
+  }
+}

@@ -28,3 +28,26 @@
   line-height: 20px;
   margin-bottom: 0px;
 }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .whyus-card {
+    flex-direction: column;
+  }
+
+  .whyus-card-item {
+    width: 328px;
+    height: auto;
+    /* max-height: 196px; */
+  }
+
+  .whyus-card-item h2 {
+    margin-bottom: 0px;
+  }
+
+  .whyus-card-item p {
+    font: 700 14px "arial", sans-serif;
+    line-height: 20px;
+    margin-bottom: 0px;
+    height: auto;
+  }
+}

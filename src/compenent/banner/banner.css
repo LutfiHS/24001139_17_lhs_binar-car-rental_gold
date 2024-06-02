@@ -33,3 +33,18 @@
   color: #ffffff;
   line-height: 20px;
 }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .banner-container {
+    width: 80vw;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding: 44px;
+  }
+
+  .banner-container h1 {
+    font: 700 24px "arial", sans-serif;
+    line-height: 36px;
+    text-align: center;
+  }
+}

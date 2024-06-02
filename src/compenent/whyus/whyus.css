@@ -1,18 +1,33 @@
-.whyus-container {
-  margin: 0;
-  padding: 0;
-  margin: 0 auto;
+.whyus-wrapper {
   width: 100%;
-  max-width: 1168px;
+  min-height: 328px;
+  /* width: 100%; */
+}
+
+.whyus-container {
+  width: 1168px;
+  margin: 0 auto;
+  padding: 0;
 
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 16px;
   margin-bottom: 100px;
 }
 
-.whyus-container p {
-  margin-bottom: 40px;
+@media (min-width: 280px) and (max-width: 480px) {
+  .whyus-container {
+    width: 80vw;
+    margin-bottom: 50px;
+  }
+
+  .whyus-container h2 {
+    margin-bottom: 24px;
+  }
+
+  .whyus-container p {
+    margin-bottom: 16px;
+  }
 }

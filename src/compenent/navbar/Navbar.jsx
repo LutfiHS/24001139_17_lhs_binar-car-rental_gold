@@ -1,14 +1,14 @@
 import NavbarList from "./NavbarList";
 import NavbarLogo from "./NavbarLogo";
-import "../../Root.css";
 import "./Navbar.css";
+import "../../Root.css";
 
 const Navbar = () => {
   return (
-    <section class="wrapper-light-sky displayRelative">
+    <section class="wrapper-light-sky navbar-wrapper">
       <div class="navbar-container">
         <NavbarLogo />
-        <NavbarList />
+        <NavbarList asNavbar={true} vDirection={false} />
       </div>
     </section>
   );

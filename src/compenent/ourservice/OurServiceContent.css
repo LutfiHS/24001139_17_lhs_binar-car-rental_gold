@@ -18,3 +18,21 @@
   line-height: 20px;
   margin-bottom: 16px;
 }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .OurService-content {
+    width: 80vw;
+    height: auto;
+    gap: 14px;
+  }
+
+  .OurService-content h2 {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .OurService-content .OurService-content-p {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+}
