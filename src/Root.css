@@ -3,6 +3,7 @@
   --paddingnavbar: 24px;
   --colorlight: #f1f3ff;
   --colorwhite: #ffffff;
+  --maxmobilewidth: 480px;
 }
 
 * {

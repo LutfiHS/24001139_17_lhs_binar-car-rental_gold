@@ -4,10 +4,12 @@ import CardWhyUs from "./whyus-card";
 
 const Whyus = () => {
   return (
-    <div className=".wrapper-white ">
+    <div className=".wrapper-white whyus-wrapper">
       <div className="whyus-container">
-        <h2>Why Us?</h2>
-        <p>Mengapa harus pilih Binar Car Rental?</p>
+        <div>
+          <h2>Why Us?</h2>
+          <p>Mengapa harus pilih Binar Car Rental?</p>
+        </div>
         <CardWhyUs />
       </div>
     </div>

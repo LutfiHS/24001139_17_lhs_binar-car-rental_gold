@@ -5,7 +5,7 @@ import HeroImage from "./HeroImage";
 
 const HeroOne = (props) => {
   return (
-    <section class="wrapper-light-sky displayAbs">
+    <section class="wrapper-light-sky hero-wrapper ">
       <div class="wrapper-light-sky hero-container">
         <HeroContent ShwButton={props.btn} />
         <HeroImage />

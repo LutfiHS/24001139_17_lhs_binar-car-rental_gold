@@ -1,3 +1,7 @@
+.faq-wrapper {
+  height: auto;
+}
+
 .faq-container {
   margin: 0 auto;
   width: 1168px;
@@ -30,4 +34,22 @@
 .faq-content p {
   font: 700 14px "arial", sans-serif;
   line-height: 20px;
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .faq-container {
+    width: 80vw;
+    height: 100%;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+  .faq-content {
+    width: 100%;
+  }
+  .faq-content h1,
+  .faq-content p {
+    width: 100%;
+  }
 }

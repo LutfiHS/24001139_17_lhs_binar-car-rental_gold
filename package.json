@@ -12,7 +12,10 @@
     "axios": "^1.7.2",
     "preact": "^10.19.6",
     "react-router-dom": "^6.23.1",
-    "react-router-hash-link": "^2.4.3"
+    "react-router-hash-link": "^2.4.3",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.8.2",

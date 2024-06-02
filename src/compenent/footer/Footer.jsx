@@ -14,7 +14,10 @@ const Footer = () => {
           <p>081-233-334-808</p>
         </div>
 
-        <ListMenu vertical={true} />
+        <div className="list-menu-footer">
+          <ListMenu asNavbar={false} vDirection={true} />
+        </div>
+
         <div className="list-media">
           <p>Connect with us</p>
           <div className="icon-media">
@@ -25,6 +28,7 @@ const Footer = () => {
             ))}
           </div>
         </div>
+
         <div className="copyright">
           <p>Copyright Binar 2022</p>
           <Logo />

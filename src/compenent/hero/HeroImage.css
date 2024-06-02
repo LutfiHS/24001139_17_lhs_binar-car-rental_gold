@@ -12,3 +12,10 @@
   bottom: 0px;
   /* transform: translateX(20%); */
 }
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .hero-image img {
+    width: 344.22px;
+    height: 199px;
+  }
+}

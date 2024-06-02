@@ -4,7 +4,7 @@ import FaqList from "./FaqList";
 
 const Faq = () => {
   return (
-    <div className="wrapper-white">
+    <div className="wrapper-white faq-wrapper">
       <div className="faq-container">
         <div className="faq-content">
           <h1>Frequently Asked Question</h1>

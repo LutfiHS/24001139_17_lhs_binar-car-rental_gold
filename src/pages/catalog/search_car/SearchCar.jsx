@@ -14,6 +14,7 @@ const SearchCar = () => {
   const [status_car, setStatus_car] = useState("default");
   const [page, setPage] = useState(0);
   const [lenData, setlenData] = useState(1);
+  const [isOverlay, setIsOverlay] = useState(false);
 
   const getMenu = () => {
     if (
@@ -99,6 +100,26 @@ const SearchCar = () => {
     }
   };
 
+  const handleInputBlur = () => {
+    setIsOverlay(false);
+  };
+
+  const handleInputFocus = () => {
+    setIsOverlay(true);
+  };
+
+  const shwOverlay = {
+    display: isOverlay ? "block" : "none",
+    position: "fixed",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    backgroundColor: "rgba(0, 0, 0, 0.5)", // Adjust opacity here (0.5 for 50%)
+    zIndex: 1999,
+    transition: "opacity 5s ease",
+  };
+
   useEffect(() => {
     if (page !== 0) {
       getMenu();
@@ -112,13 +133,18 @@ const SearchCar = () => {
   return (
     <div>
       <div className="search-wrapper">
-        <div className="search-container">
+        <div
+          className="search-container"
+          style={isOverlay ? { zIndex: 2000 } : {}}
+        >
           <div className="box-name">
             <p>Nama Mobil</p>
             <input
               onChange={handleChange_Name}
               type="input-search"
               placeholder="ketik nama/tipe mobil"
+              onFocus={handleInputFocus}
+              onBlur={handleInputBlur}
             />
           </div>
           <div className="box-capacity-car">
@@ -128,6 +154,8 @@ const SearchCar = () => {
               defaultValue="default"
               name=""
               id=""
+              onFocus={handleInputFocus}
+              onBlur={handleInputBlur}
             >
               <option style="display:none" value="default" disabled>
                 Masukan Kapasitas Mobil
@@ -142,6 +170,8 @@ const SearchCar = () => {
             <select
               onChange={handleChange_Price}
               defaultValue="default"
+              onFocus={handleInputFocus}
+              onBlur={handleInputBlur}
               name=""
               id=""
             >
@@ -154,7 +184,13 @@ const SearchCar = () => {
           </div>
           <div className="box-status-rent" onChange={handleChange_Status}>
             <p>Status</p>
-            <select defaultValue="default" name="" id="">
+            <select
+              defaultValue="default"
+              name=""
+              id=""
+              onFocus={handleInputFocus}
+              onBlur={handleInputBlur}
+            >
               <option style="display:none" value="default" disabled>
                 Pilih status
               </option>
@@ -214,6 +250,7 @@ const SearchCar = () => {
       ) : (
         <div className="wrapper-white blank-wrapper"></div>
       )}
+      <div style={shwOverlay}></div>
     </div>
   );
 };

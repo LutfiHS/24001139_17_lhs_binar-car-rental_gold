@@ -74,16 +74,25 @@
 
 .button-container button {
   /* background: none; */
-  border: none;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 0 none;
+  background-color: white;
   padding: 0;
   width: 32px;
   height: 32px;
   background-position: 50% 50%;
+  text-indent: -9999px;
   cursor: pointer;
-  background-image: url("../../../assets/Left button.png") no-repeat;
+  background-image: url("../../../assets/Left-button.png");
+}
+
+.button-container .btn-left {
+  background-image: url("../../../assets/Left-button.png");
 }
 
 .button-container .btn-right {
-  background-image: url("../../../assets/Left button.png") no-repeat;
-  transform: rotate(180deg);
+  background-image: url("../../../assets/Right-button.png");
 }
